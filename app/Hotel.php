@@ -10,8 +10,5 @@ class Hotel extends Model
         return $this->hasMany('App\Room');
     }
 
-    public function users(){
-        return $this->hasMany('App\Users');
-    }
 
 }
